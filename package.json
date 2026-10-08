@@ -1,0 +1,41 @@
+{
+  "name": "@susheelhbti/mcp-support-si",
+  "version": "2.2.0",
+  "description": "MCP Support SI — local Model Context Protocol server for customer support email: IMAP/POP3 inbox, SMTP replies with approval and duplicate protection, complaint tracking, and approved JSON knowledge.",
+  "author": "Susheel HBTI <susheelhbti@users.noreply.github.com>",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "engines": { "node": ">=22" },
+  "keywords": [
+    "mcp", "model-context-protocol", "email", "imap", "smtp", "pop3",
+    "customer-support", "ai-agent"
+  ],
+  "repository": { "type": "git", "url": "https://github.com/susheelhbti/mcp-support-si.git" },
+  "homepage": "https://github.com/susheelhbti/mcp-support-si#readme",
+  "bugs": { "url": "https://github.com/susheelhbti/mcp-support-si/issues" },
+  "bin": {
+    "mcp-support-si": "server.mjs",
+    "mcp-support-si-setup": "setup.mjs"
+  },
+  "files": [
+    "core.mjs", "server.mjs", "setup.mjs",
+    "mcp.json", "plugin.json", ".codex-plugin/",
+    "skills/", "examples/",
+    "README.md", "LICENSE", "CHANGELOG.md", ".env.example"
+  ],
+  "scripts": {
+    "start": "node server.mjs",
+    "setup": "node setup.mjs",
+    "test": "node --test test/*.test.mjs",
+    "publish:dry": "npm pack --dry-run"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "imapflow": "^1.0.0",
+    "mailparser": "^3.0.0",
+    "node-pop3": "^0.15.3",
+    "nodemailer": "10.0.15",
+    "zod": "^3.25.0"
+  }
+}

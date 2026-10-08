@@ -1,0 +1,7 @@
+{
+  "updated": "2026-10-07",
+  "products": [
+    { "name": "Example Product A", "size": "30 ml", "price": "100.00", "active": true },
+    { "name": "Example Product B", "size": "10 ml", "price": "50.00", "active": true }
+  ]
+}

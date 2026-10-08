@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mcp-support-si",
+  "version": "2.2.0",
+  "description": "MCP Support SI — customer support email: IMAP/POP3 inbox, SMTP replies, complaint tracking and approved JSON knowledge."
+}

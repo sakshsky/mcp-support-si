@@ -1,0 +1,17 @@
+{
+  "updated": "2026-10-07",
+  "policies": [
+    {
+      "id": "returns",
+      "active": true,
+      "text": "Unopened items may be returned within 30 days of delivery with proof of purchase. Opened consumables are not eligible for hygiene reasons.",
+      "updated": "2026-10-07"
+    },
+    {
+      "id": "shipping",
+      "active": true,
+      "text": "Standard shipping takes 3-5 business days. Express takes 1-2 business days. Tracking is emailed on dispatch.",
+      "updated": "2026-10-07"
+    }
+  ]
+}
